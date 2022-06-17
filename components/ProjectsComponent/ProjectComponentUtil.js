@@ -19,7 +19,7 @@ export default function ProjectComponentUtil({ item, idx }) {
             preload="auto"
             muted
             controls
-            style={{ width: "700px", height: "500px", objectFit: "fill" }}
+            style={{ width: "700px", height: "450px", objectFit: "fill" }}
           >
             <source src={item.projectMedia} />
           </video>
