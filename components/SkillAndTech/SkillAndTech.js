@@ -161,8 +161,10 @@ export default function SkillAndTech() {
           </div>
         </div>
         <div className="right-side-wrapper lg:flex-1">
-          <div className="mb-8 text-center">
-            <h1>My skills and tech</h1>
+          <div className="mb-8 text-center font-quantico text-transparent bg-clip-text bg-gradient-to-l from-indigo-500 via-pink-500 to-purple-500">
+            <h1 className="text-3xl sm:text-5xl md:text-7xltext-7xl">
+              My skills and tech
+            </h1>
           </div>
           <div className="social-icons flex gap-x-10 flex flex-wrap max-w-[100%] justify-center">
             {iconData.map((item) => (

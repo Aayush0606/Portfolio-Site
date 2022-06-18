@@ -58,8 +58,10 @@ export default function ContactComponent() {
         className="content-wrapper flex flex-col lg:flex-row p-16 gap-2"
       >
         <div className="flex-1 text-center flex flex-row justify-between items-center">
-          <div className="social-icons flex flex-col gap-y-8">
-            <h1>Connect</h1>
+          <div className="social-icons flex flex-col gap-y-8 text-transparent bg-clip-text bg-gradient-to-l from-indigo-500 via-pink-500 to-purple-500">
+            <h1 className="font-quantico text-3xl sm:text-5xl md:text-7xltext-7xl">
+              Connect
+            </h1>
             {iconData.map((item) => (
               <a
                 target="blank"
@@ -68,7 +70,7 @@ export default function ContactComponent() {
                 className="flex flex-row gap-x-6 hover:cursor-pointer hover:text-orange-800 text-decoration-none"
               >
                 <IconComponent item={item} />
-                <p>{item.logoNameConnect}</p>
+                <p className="font-quantico">{item.logoNameConnect}</p>
               </a>
             ))}
           </div>
@@ -87,7 +89,7 @@ export default function ContactComponent() {
               <Form.Group className="mb-3" controlId="Name">
                 <Form.Control
                   name="from_name"
-                  className="bg-transparent"
+                  className="bg-transparent text-white"
                   type="text"
                   placeholder="Enter name"
                   required
@@ -96,16 +98,16 @@ export default function ContactComponent() {
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Control
                   name="from_email"
-                  className="bg-transparent"
+                  className="bg-transparent text-white"
                   type="email"
                   placeholder="Enter email"
                   required
                 />
               </Form.Group>
-              <Form.Group className="mb-3" controlId="message">
+              <Form.Group className="mb-3 text-red-500" controlId="message">
                 <Form.Control
                   name="message"
-                  className="bg-transparent"
+                  className="bg-transparent text-white"
                   as="textarea"
                   rows={5}
                   type="text"
@@ -114,7 +116,7 @@ export default function ContactComponent() {
                 />
               </Form.Group>
               <button
-                className="bg-red-800 h-10 w-16 text-purple-800"
+                className="text-decoration-none mr-4 bg-[#fca5a5] p-2 rounded-xl font-quantico text-red-500 hover:bg-pink-400 hover:text-red-700"
                 type="submit"
               >
                 Send

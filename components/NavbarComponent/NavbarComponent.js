@@ -15,7 +15,7 @@ function NavbarComponent() {
         <Container>
           <Navbar.Brand>
             <Link
-              className="text-red-300 text-decoration-none hover:cursor-pointer "
+              className="text-[#fca5a5] hover:text-pink-400 text-2xl no-underline hover:cursor-pointer font-quantico "
               to="about-component"
               spy={true}
               smooth={true}
@@ -31,7 +31,7 @@ function NavbarComponent() {
             <Nav>
               <div className="flex gap-6">
                 <Link
-                  className="text-red-300 text-decoration-none hover:cursor-pointer"
+                  className="text-[#fca5a5] hover:text-pink-400 text-lg no-underline  hover:cursor-pointer font-quantico "
                   to="about-component"
                   spy={true}
                   smooth={true}
@@ -41,7 +41,7 @@ function NavbarComponent() {
                   HOME
                 </Link>
                 <Link
-                  className="text-red-300 text-decoration-none hover:cursor-pointer"
+                  className="text-[#fca5a5] hover:text-pink-400 text-lg no-underline  hover:cursor-pointer font-quantico"
                   to="skill-tech-component"
                   spy={true}
                   smooth={true}
@@ -51,7 +51,7 @@ function NavbarComponent() {
                   TECH AND SKILLS
                 </Link>
                 <Link
-                  className="text-red-300 text-decoration-none hover:cursor-pointer"
+                  className="text-[#fca5a5] hover:text-pink-400 text-lg no-underline  hover:cursor-pointer font-quantico"
                   to="project-component"
                   spy={true}
                   smooth={true}
@@ -61,7 +61,7 @@ function NavbarComponent() {
                   PROJECTS
                 </Link>
                 <Link
-                  className="text-red-300 text-decoration-none hover:cursor-pointer"
+                  className="text-[#fca5a5] hover:text-pink-400 text-lg no-underline  hover:cursor-pointer font-quantico"
                   to="contact-component"
                   spy={true}
                   smooth={true}

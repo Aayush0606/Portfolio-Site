@@ -45,8 +45,7 @@ const projectData = [
         logoNameProject: "MongoDB",
       },
     ],
-    projectSource: "https://github.com/Aayush0606",
-    projectLive: "https://github.com/Aayush0606",
+    projectSource: "https://github.com/Aayush0606/MERN_BLOG_FRONTEND",
   },
   {
     projectMedia: "/vote-hub.mkv",
@@ -94,8 +93,7 @@ const projectData = [
         logoNameProject: "Gun.js",
       },
     ],
-    projectSource: "https://github.com/Aayush0606",
-    projectLive: "https://github.com/Aayush0606",
+    projectSource: "https://github.com/Aayush0606/p2p-voting",
   },
   {
     projectMedia: "/covid-tracker.mkv",
@@ -120,8 +118,7 @@ const projectData = [
         logoNameProject: "MaterialUI",
       },
     ],
-    projectSource: "https://github.com/Aayush0606",
-    projectLive: "https://github.com/Aayush0606",
+    projectSource: "https://github.com/Aayush0606/CovidTracker",
   },
   {
     projectMedia: "/sort-visual.mkv",
@@ -148,8 +145,7 @@ const projectData = [
         logoNameProject: "MaterialUI",
       },
     ],
-    projectSource: "https://github.com/Aayush0606",
-    projectLive: "https://github.com/Aayush0606",
+    projectSource: "https://github.com/Aayush0606/Sort-Visualizer",
   },
   {
     projectMedia: "/crypto-tracker.mp4",
@@ -168,8 +164,7 @@ const projectData = [
         logoNameProject: "React Native",
       },
     ],
-    projectSource: "https://github.com/Aayush0606",
-    projectLive: "https://github.com/Aayush0606",
+    projectSource: "https://github.com/Aayush0606/CryptoTracker",
   },
   {
     projectMedia: "/chat-app.mp4",
@@ -202,8 +197,7 @@ const projectData = [
         logoNameProject: "Firebase",
       },
     ],
-    projectSource: "https://github.com/Aayush0606",
-    projectLive: "https://github.com/Aayush0606",
+    projectSource: "https://github.com/Aayush0606/ChatApp",
   },
   {
     projectMedia: "/meme-hub.mp4",
@@ -222,8 +216,7 @@ const projectData = [
         logoNameProject: "React Native",
       },
     ],
-    projectSource: "https://github.com/Aayush0606",
-    projectLive: "https://github.com/Aayush0606",
+    projectSource: "https://github.com/Aayush0606/MemesFTW",
   },
   {
     projectMedia: "/discord-bot.mkv",
@@ -241,8 +234,7 @@ const projectData = [
         logoNameProject: "Python",
       },
     ],
-    projectSource: "https://github.com/Aayush0606",
-    projectLive: "https://github.com/Aayush0606",
+    projectSource: "https://github.com/Aayush0606/DiscordBot",
   },
   {
     projectMedia: "/question-hub.mkv",
@@ -282,8 +274,7 @@ const projectData = [
         logoNameProject: "Firebase",
       },
     ],
-    projectSource: "https://github.com/Aayush0606",
-    projectLive: "https://github.com/Aayush0606",
+    projectSource: "https://github.com/Aayush0606/QuestionBank",
   },
   {
     projectMedia: "/quote-hub.mp4",
@@ -330,8 +321,7 @@ const projectData = [
         logoNameProject: "MongoDB",
       },
     ],
-    projectSource: "https://github.com/Aayush0606",
-    projectLive: "https://github.com/Aayush0606",
+    projectSource: "https://github.com/Aayush0606/QuotesHub",
   },
 ];
 export default projectData;

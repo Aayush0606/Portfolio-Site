@@ -7,8 +7,10 @@ export default function ProjectsComponent() {
     <>
       <div id="project-component" className="container-wrapper">
         <div className="p-10">
-          <div className="text-center mb-4">
-            <h1>Projects</h1>
+          <div className="text-center mb-4 font-quantico text-transparent bg-clip-text bg-gradient-to-l from-indigo-500 via-pink-500 to-purple-500">
+            <h1 className="text-3xl sm:text-5xl md:text-7xltext-7xl">
+              Projects
+            </h1>
           </div>
           {projectData.map((item, idx) => (
             <ProjectComponentUtil

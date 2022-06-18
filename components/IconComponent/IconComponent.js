@@ -43,7 +43,9 @@ export default function IconComponent({ item }) {
       </animated.div>
       {item.logoName && (
         <div>
-          <p className="tracking-widest">{item.logoName}</p>
+          <p className="tracking-widest text-red-500 text-base">
+            {item.logoName}
+          </p>
         </div>
       )}
     </div>
