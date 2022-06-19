@@ -34,7 +34,7 @@ const AboutComponent = () => {
         <div className="left-side-wrapper lg:flex-1">
           <div className="heading">
             <h1 className="font-quantico text-3xl sm:text-5xl md:text-7xl text-transparent bg-clip-text bg-gradient-to-l from-indigo-500 via-pink-500 to-purple-500">
-              Hi, I'm Aayush
+              Hi, I&apos;m Aayush
             </h1>
           </div>
           <div className="middle">

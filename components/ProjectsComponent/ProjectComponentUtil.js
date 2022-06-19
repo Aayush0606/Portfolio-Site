@@ -28,7 +28,7 @@ export default function ProjectComponentUtil({ item, idx }) {
         </div>
         <div className="text-conatiner flex-1">
           <div className="description text-base sm:text-xl md:text-3xl font-indie text-[#fadede]">
-            <ReactMarkdown children={item.projectDescription} />
+            <ReactMarkdown>{item.projectDescription}</ReactMarkdown>
           </div>
           <div className="links">
             <a

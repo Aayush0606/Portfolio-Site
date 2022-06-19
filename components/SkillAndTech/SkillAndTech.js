@@ -1,5 +1,8 @@
 import Image from "next/image";
 import IconComponent from "../IconComponent/IconComponent";
+import { useState, useRef, useEffect } from "react";
+import { useTrail, animated as a } from "react-spring";
+import { useIntersection } from "react-use";
 export default function SkillAndTech() {
   const iconData = [
     {
@@ -144,6 +147,7 @@ export default function SkillAndTech() {
       logoName: "C++",
     },
   ];
+
   return (
     <>
       <div

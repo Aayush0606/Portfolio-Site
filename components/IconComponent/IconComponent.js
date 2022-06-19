@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useRef } from "react";
 import { useSpring, animated, config } from "react-spring";
 
